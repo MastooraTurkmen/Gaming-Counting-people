@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    background: #1B244A;  
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#home{
+    height: 36px;
+    width: 150px;
+    font-size: 45px;
+    margin-left: 175px;
+    margin-top: 68px;
+    margin-bottom: 21px;
+    
+ 
+}
+#guest{
+    height: 36px;
+    width: 150px;
+    font-size: 45px;
+    margin-right: 175px;
+    margin-left: 6px;
+    margin-top: 68px;
+    margin-bottom: 21px;
+
+}
+
+#zero-home {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 90px;
+    width: 155px;
+    height: 120px;
+    margin-left: 160px;
+    margin-top: 20px;
+    margin-bottom: 26px;
+    color: #F94F6D;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+#zero-guest{
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 90px;
+    width: 155px;
+    height: 120px;
+    margin-right: 160px;
+    margin-top: 20px;
+    margin-bottom: 26px;
+    color: #F94F6D;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+#btn-home{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;   
+    margin-right: 2px;
+    margin-left: 170px;
+}
+
+.btn-guest{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;   
+    margin-right: 170px;
+    margin-left: 2px;
+}
+
+#butn-home{
+        font-family: 'Cursed Timer ULiL', sans-serif;
+        background: #1B244A;
+        color: #9AABD8;
+        border: 2px solid #9AABD8;
+        border-radius: 5px; 
+        width: 45px;
+        height: 45px;
+        font-size: 18px;
+
+}
+
+.botn-guest{
+    font-family: 'Cursed Timer ULiL', sans-serif;
+        background: #1B244A;
+        color: #9AABD8;
+        border: 2px solid #9AABD8;
+        border-radius: 5px; 
+        width: 45px;
+        height: 45px;
+        font-size: 18px;
+    
+}
+
+
+@import url('https://fonts.cdnfonts.com/css/cursed-timer-ulil');
